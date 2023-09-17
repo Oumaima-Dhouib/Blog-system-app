@@ -14,6 +14,8 @@ composer install
 Vous devrez copier le fichier .env.example pour créer un fichier .env qui contiendra la configuration spécifique à votre environnement local.
 # Configuration de la base de données 
 Ouvrez le fichier .env nouvellement créé et configurez les paramètres de votre base de données. Assurez-vous que les paramètres DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME et DB_PASSWORD correspondent à votre configuration locale.
+# Générez une nouvelle clé d'application
+php artisan key:generate
 # Install NPM:
 npm install
 # Run NPM
