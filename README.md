@@ -25,6 +25,6 @@ php artisan migrate --seed
 # Lancez le serveur de développement
 php artisan serve
 # Se Connecter
-email: admin@gmail.com
+email: admin@gmail.com &
 mot de passe: password
 
